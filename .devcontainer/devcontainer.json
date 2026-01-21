@@ -4,7 +4,11 @@
     "dockerfile": "Dockerfile"
   },
 
-  "features": {},
+  "features": {
+    "ghcr.io/devcontainers/features/sshd:1": {
+      "version": "latest"
+    }
+  },
 
   "customizations": {
     "vscode": {
