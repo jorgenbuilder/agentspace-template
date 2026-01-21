@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+# I want claude to always run with permission skips and access to the browser.
+
 echo "==> Wrapping Claude CLI with default flags..."
 
 # Find the real claude binary
