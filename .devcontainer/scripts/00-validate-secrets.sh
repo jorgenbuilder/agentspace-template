@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+touch /workspaces/.build-logs.txt
 LOG_FILE="/workspaces/.build-logs.txt"
 
 echo "==> Validating required secrets..." >> $LOG_FILE
