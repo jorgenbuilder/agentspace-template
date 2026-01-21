@@ -248,7 +248,7 @@ Full checklist in VERIFY.md.
 
 | Issue | Solution |
 |-------|----------|
-| Secrets missing | Run `./scripts/attach-codespaces-secrets.sh <owner>/<repo>` and rebuild |
+| Secrets missing | Run `./agentspace/scripts/attach-codespaces-secrets.sh <owner>/<repo>` and rebuild |
 | Claude not found | Check `ANTHROPIC_API_KEY` is set, check PATH includes `~/.local/bin` |
 | Git auth fails | Check `GH_PAT` is set, verify token has correct scopes |
 | makespace fails | Check `gh` and `jq` installed, check `gh auth status` |

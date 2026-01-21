@@ -81,11 +81,11 @@ Add this function to your `~/.zshrc` or `~/.bashrc`:
 
 ```bash
 makespace() {
-  /path/to/agentspace/local-install/makespace "$@"
+  /path/to/agentspace-template/agentspace/local-install/makespace "$@"
 }
 ```
 
-Replace `/path/to/agentspace` with the actual path to this repository.
+Replace `/path/to/agentspace-template` with the actual path to this repository.
 
 Then reload your shell:
 ```bash
@@ -97,10 +97,10 @@ source ~/.zshrc  # or source ~/.bashrc
 Add this line to your `~/.zshrc` or `~/.bashrc`:
 
 ```bash
-alias makespace='/path/to/agentspace/local-install/makespace'
+alias makespace='/path/to/agentspace-template/agentspace/local-install/makespace'
 ```
 
-Replace `/path/to/agentspace` with the actual path to this repository.
+Replace `/path/to/agentspace-template` with the actual path to this repository.
 
 Then reload your shell:
 ```bash

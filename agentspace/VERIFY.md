@@ -186,7 +186,7 @@ Check that all bootstrap scripts ran successfully:
 
 If any checks fail:
 
-1. **Secrets missing**: Run `./scripts/attach-codespaces-secrets.sh <owner>/<repo>` and rebuild Codespace
+1. **Secrets missing**: Run `./agentspace/scripts/attach-codespaces-secrets.sh <owner>/<repo>` and rebuild Codespace
 2. **Claude not working**: Check that `ANTHROPIC_API_KEY` is set and valid
 3. **Git auth failing**: Check that `GH_PAT` is set and has correct scopes
 4. **Tools missing**: Rebuild Codespace to re-run Dockerfile installation

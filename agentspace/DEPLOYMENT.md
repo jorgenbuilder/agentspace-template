@@ -204,7 +204,7 @@ RUN apt-get update && apt-get install -y \
 1. Verify secrets exist: https://github.com/settings/codespaces
 2. Check repository has access to secrets:
    ```bash
-   ./scripts/attach-codespaces-secrets.sh <owner>/<repo>
+   ./agentspace/scripts/attach-codespaces-secrets.sh <owner>/<repo>
    ```
 3. Rebuild Codespace
 

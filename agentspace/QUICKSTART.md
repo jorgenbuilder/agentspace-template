@@ -136,7 +136,7 @@ source ~/.zshrc
 ```bash
 # Verify secrets exist in GitHub Settings
 # Then attach them to your repo:
-./scripts/attach-codespaces-secrets.sh owner/repo-name
+./agentspace/scripts/attach-codespaces-secrets.sh owner/repo-name
 
 # Rebuild the Codespace
 ```
