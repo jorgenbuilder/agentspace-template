@@ -64,9 +64,10 @@ When a Codespace is created, the following scripts run automatically in order:
 
 1. `00-validate-secrets.sh` - Verifies required secrets are available
 2. `20-configure-git.sh` - Configures git with your PAT and GitHub identity
-3. `30-wrap-claude.sh` - Wraps Claude CLI with default flags
-4. `40-install-beads.sh` - Installs Beads CLI and configuration
-5. `50-install-claude-skills.sh` - Installs Claude skills including Beads plugin
+3. `25-login-claude.sh` - Authenticates Claude CLI with your API key
+4. `30-wrap-claude.sh` - Wraps Claude CLI with default flags
+5. `40-install-beads.sh` - Installs Beads CLI and configuration
+6. `50-install-claude-skills.sh` - Installs Claude skills including Beads plugin
 
 ### Claude CLI Wrapper
 
@@ -147,6 +148,7 @@ If you see "Missing required secrets" error:
 │   └── scripts/
 │       ├── 00-validate-secrets.sh     # Secret validation
 │       ├── 20-configure-git.sh        # Git configuration
+│       ├── 25-login-claude.sh         # Claude CLI authentication
 │       ├── 30-wrap-claude.sh          # Claude CLI wrapper
 │       ├── 40-install-beads.sh        # Beads installation
 │       └── 50-install-claude-skills.sh # Claude skills installation
