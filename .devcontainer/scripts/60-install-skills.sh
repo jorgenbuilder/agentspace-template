@@ -1,8 +1,7 @@
 #!/bin/bash
 set -e
 
-#!/bin/bash
-set -e
+echo "==> Installing skills..."
 
 claude -p "$(cat <<'EOF'
 Install the following skills:

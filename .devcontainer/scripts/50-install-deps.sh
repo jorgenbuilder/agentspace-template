@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+echo "==> Installing dependencies..."
+
 claude -p "$(cat <<'EOF'
 Install the following dependencies:
 
