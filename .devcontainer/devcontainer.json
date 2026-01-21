@@ -20,7 +20,7 @@
 
   "remoteUser": "vscode",
 
-  "postCreateCommand": "bash -c 'set -e && .devcontainer/scripts/00-validate-secrets.sh && .devcontainer/scripts/20-configure-git.sh && .devcontainer/scripts/30-wrap-claude.sh && .devcontainer/scripts/40-install-beads.sh && .devcontainer/scripts/50-install-claude-skills.sh'",
+  "postCreateCommand": "bash -c 'set -e && .devcontainer/scripts/00-validate-secrets.sh && .devcontainer/scripts/20-configure-git.sh && .devcontainer/scripts/30-wrap-claude.sh && .devcontainer/scripts/40-install-beads.sh && .devcontainer/scripts/50-install-deps.sh && .devcontainer/scripts/60-install-skills.sh'",
 
   "containerEnv": {
     "ANTHROPIC_API_KEY": "${localEnv:ANTHROPIC_API_KEY}",

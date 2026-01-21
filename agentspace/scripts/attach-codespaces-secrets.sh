@@ -39,6 +39,7 @@ echo ""
 SECRETS=(
   "ANTHROPIC_API_KEY"
   "GH_PAT"
+  "VERCEL_TOKEN"
 )
 
 # Attach each secret to the repository
