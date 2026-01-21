@@ -206,7 +206,7 @@ echo "==> Step 5: Creating Codespace..."
 echo "This will open in your browser when ready..."
 echo ""
 
-if ! gh codespace create --repo "$REPO_SLUG" --branch main; then
+if ! gh codespace create --repo "$REPO_SLUG" --branch main --machine m1-standard; then
   echo "❌ ERROR: Failed to create Codespace"
   echo "You can create it manually from: https://github.com/$REPO_SLUG"
   exit 1
